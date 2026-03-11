@@ -224,21 +224,21 @@
 
 // Hashing a password using crypto module
 
-const crypto = require("crypto");
+// const crypto = require("crypto");
 
-const password = "mypassword";
+// const password = "mypassword";
 
-const hash = crypto.createHash("sha256")
-    .update(password)
-    .digest("hex");
+// const hash = crypto.createHash("sha256")
+//     .update(password)
+//     .digest("hex");
 
-console.log(hash);
+// console.log(hash);
 
 // Generating a random token using crypto module
 // const crypto = require("crypto");
 
 // function generateToken() {
-//     return crypto.randomBytes(16).toString("hex");
+//     return crypto.randomBytes(16).toString("hex"
 // }
 
 // console.log(generateToken());
